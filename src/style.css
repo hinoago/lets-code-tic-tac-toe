@@ -1,0 +1,34 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#field{
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+.area{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  font-size: 70px;
+  color: black;
+}
