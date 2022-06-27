@@ -1,6 +1,6 @@
 export class Position{
 
-    constructor(private x: number, private y: number, private content: "x" | "o" | "blank"){
+    constructor(private x: number, private y: number, private content: "x" | "o" | undefined){
 
     }
 
@@ -16,7 +16,7 @@ export class Position{
         return this.y;
     }
 
-    getContent(): string{
+    getContent(): string | undefined{
         return this.content;
     }
 }
